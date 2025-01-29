@@ -4,9 +4,9 @@ import sys
 from pathlib import Path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
-
 from source.exception import CustomException
 from source.logger import logging
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
